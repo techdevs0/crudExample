@@ -1,0 +1,115 @@
+.apply-now {
+  z-index: 1111;
+}
+
+.title {
+  color: #002049;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.apply-now .modal-title {
+  color: #002049;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.apply-now .query-form-column label {
+  color: #002049;
+}
+
+.apply-now .query-form-column input,
+.apply-now .query-form-column select,
+.apply-now .query-form-column textarea {
+  border-radius: 0;
+}
+
+.apply-now .query-form-column input::placeholder,
+.apply-now .query-form-column select::placeholder,
+.apply-now .query-form-column textarea::placeholder {
+  color: #afabab94;
+}
+
+
+
+.apply-now .query-form-column input:focus,
+.apply-now .query-form-column select:focus,
+.apply-now .query-form-column textarea:focus {
+  box-shadow: none;
+  border: 1px solid #002049;
+}
+
+.apply-now .query-form-column textarea {
+  resize: none;
+}
+
+.apply-now .query-form-column p {
+  line-height: 1.25rem;
+  font-size: 14px;
+}
+
+.btn-submit {
+  border-radius: 5px;
+  background-color: #002049;
+  border-color: #002049;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+
+.btn-submit:hover,
+.btn-submit:focus {
+  box-shadow: none;
+  outline: none;
+  background-color: transparent;
+  color: #002049;
+}
+
+.btnClose {
+  border-radius: 5px;
+  background-color: #df0000;
+  border-color: #df0000;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+
+.btnClose:hover,
+.btnClose:focus {
+  box-shadow: none;
+  outline: none;
+  background-color: transparent;
+  color: #df0000;
+}
+
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  box-shadow: 2px 3px 34px -6px rgba(0,0,0,0.69);
+}
+
+.mainTextWrapper {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.noRecordTd {
+  text-align: center;
+}
+.tableStyle {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1)
+}
+
+.actionTd {
+  display: flex;
+  column-gap: 15px
+}
